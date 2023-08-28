@@ -1,26 +1,49 @@
 body {
+    margin: 0;
     background: #fceee9;
     text-align: center;
+    line-height: 1.5;
 }
+
+.content-width {
+    max-width: 90ch;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+  }
 
 h1 {
     display: inline-block;
     color: #a3b899;
     background-color: 	#f8d3c5;
-    font-family: Garamond, Georgia, serif;
+    font-family: 'Unbounded', sans-serif;
     font-size: 4em;
     padding: 0px;
     margin: 0px;
     margin-top: 15px
 }
 h1 span {
-    font-size: .75em;
+    font-family: 'Gulfs Display', Georgia, serif;
+    font-size: .6em;
 }
 
 h2 {
     color: #667b68;
+    font-size: 25px;
+}
+
+h3 {
+    color: #b6d7a8;
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Rubik Mono One', sans-serif;
     padding: 0px;
     margin: 0px;
     margin-top: 10px;
-    font-size: 2em;
 }
