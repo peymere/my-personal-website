@@ -19,7 +19,9 @@ h1 {
     font-size: 4em;
     padding: 0px;
     margin: 0px;
-    margin-top: 15px
+    margin-top: 15px;
+    border-style: dotted;
+    border-width: thick;
 }
 h1 span {
     font-family: 'Gulfs Display', Georgia, serif;
