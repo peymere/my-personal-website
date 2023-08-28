@@ -1,0 +1,12 @@
+body {
+    background: #fceee9;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    color: #667b68;
+    background-color: 	#f8d3c5;
+    font-family: Garamond, Georgia, serif;
+    font-size: 2.5em;
+}
