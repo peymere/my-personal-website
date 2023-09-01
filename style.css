@@ -45,6 +45,12 @@ main {
     color: inherit;
 }
 
+.nav a:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
 h1 {
     display: inline-block;
     color: #a3b899;
