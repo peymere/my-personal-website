@@ -3,6 +3,13 @@ body {
     background: #fceee9;
     text-align: center;
     line-height: 1.5;
+    position: relative;
+    
+}
+
+main {
+    scroll-padding-top: 40%;
+    padding-top: 80px;
 }
 
 .content-width {
@@ -17,16 +24,25 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    
+    background: #6a9346;
+    color: #dcafc0;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 21px;
+    /* border-style: inset;
+    border-width: .6em;
+    border-radius: 1em;
+    border-color: #539039; */
 }
 
 .nav {
     list-style: none;
     display: inline;
+    padding-right: 40px;
 }
 
 .nav a {
     text-decoration: none;
+    color: inherit;
 }
 
 h1 {
